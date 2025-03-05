@@ -1,0 +1,46 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+
+ body{
+    display:flex;
+    flex-direction: column;
+    font-weight: 600;
+    align-items: center;
+   
+ }
+ 
+ .container{
+  width:50vw;
+  display:flex;
+  flex-direction: column;
+  gap:40px;
+  justify-content: center;
+ 
+ }
+ .container h1{
+    text-align: center;
+    margin-top:20px;
+ }
+ .container button{
+    width:40%;
+    padding:5px 3px;
+    font-size: 20px;
+   border-right:5px solid black;
+   border-bottom:5px solid black;
+ }
+ 
+ .c-1,.c-2,.c-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ p{
+    margin-top:20px;
+ }
+ hr{
+  border-bottom: 3px solid black;
+ }
